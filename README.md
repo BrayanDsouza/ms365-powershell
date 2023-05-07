@@ -43,5 +43,6 @@ This repository contains the following scripts:
 3. **remove-user-from-group.ps1**: Removes a user from an Office 365 group.
 4. **assign-license.ps1**: Assigns an Office 365 license to a user.
 5. **remove-license.ps1**: Removes an Office 365 license from a user. I'll try to add comments to the scripts explaining what the script does and how to use it.
+<br>
 Contributing If you have any suggestions or improvements for these scripts, feel free to submit a pull request or open an issue. All contributions are welcome!
 
