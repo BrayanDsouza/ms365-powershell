@@ -3,9 +3,6 @@ This repository contains PowerShell scripts for managing Microsoft 365 resources
 
 ## Prerequisites
 Before running the scripts in this repository, you must have the following prerequisites installed on your computer:<br>
-* **Microsoft Online Services Sign-in Assistant**
-
-You can download and install these modules from the following links:<br>
 * [Microsoft Online Services Sign-in Assistant](https://learn.microsoft.com/en-us/microsoft-365/enterprise/connect-to-microsoft-365-powershell?view=o365-worldwide)
 
 ### Getting Started
