@@ -21,11 +21,13 @@ git clone https://github.com/BrayanDsouza/ms365-powershell.git
 Open PowerShell ISE or any other PowerShell editor that you prefer.
 
 Navigate to the directory where you cloned the repository:
-
-```cd powershell-office365-scripts```
+```
+cd powershell-office365-scripts
+```
 Connect to Office 365 using PowerShell by running the following cmdlet:
-
-```Connect-MsolService```
+```
+Connect-MsolService
+```
 This cmdlet will prompt you to enter your Office 365 administrator credentials. Once you have entered your credentials, you will be connected to Office 365.
 
 Once connected, you can start running the scripts in this repository by using the PowerShell . (dot) operator to "dot-source" the script file. For example:
