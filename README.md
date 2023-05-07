@@ -7,7 +7,7 @@ Before running the scripts in this repository, you must have the following prere
 **Microsoft Online Services Sign-in Assistant**<br>
 **Azure Active Directory (AD) Module for PowerShell**<br>
 <br>You can download and install these modules from the following links:<br>
-**Microsoft Online Services Sign-in Assistant Azure Active Directory (AD) Module for PowerShell**
+**Microsoft Online Services Sign-in Assistant**
 
 ### Getting Started
 To get started with using these scripts, follow these steps:
