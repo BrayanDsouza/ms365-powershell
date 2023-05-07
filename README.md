@@ -5,7 +5,6 @@ This repository contains PowerShell scripts for managing Office 365 resources su
 Before running the scripts in this repository, you must have the following prerequisites installed on your computer:
 
 **Microsoft Online Services Sign-in Assistant**<br>
-**Azure Active Directory (AD) Module for PowerShell**<br>
 <br>You can download and install these modules from the following links:<br>
 **Microsoft Online Services Sign-in Assistant**
 
