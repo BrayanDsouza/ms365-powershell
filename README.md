@@ -6,7 +6,7 @@ Before running the scripts in this repository, you must have the following prere
 
 **Microsoft Online Services Sign-in Assistant**<br>
 **Azure Active Directory (AD) Module for PowerShell**<br>
-<br>You can download and install these modules from the following links:
+<br>You can download and install these modules from the following links:<br>
 **Microsoft Online Services Sign-in Assistant Azure Active Directory (AD) Module for PowerShell**
 
 ### Getting Started
@@ -24,14 +24,14 @@ cd powershell-office365-scripts
 ```
 Connect-MsolService
 ```
-This cmdlet will prompt you to enter your Office 365 administrator credentials. Once you have entered your credentials, you will be connected to Office 365.
+<br>This cmdlet will prompt you to enter your Office 365 administrator credentials. Once you have entered your credentials, you will be connected to Office 365.
 
-Once connected, you can start running the scripts in this repository by using the PowerShell . (dot) operator to "dot-source" the script file. For example:
+<br>Once connected, you can start running the scripts in this repository by using the PowerShell . (dot) operator to "dot-source" the script file. For example:
 ```
 .\create-user.ps1
 ```
-This will run the create-user.ps1 script, which creates a new user in Office 365.
-
+This will run the **create-user.ps1** script, which creates a new user in Office 365.
+<br>
 This repository contains the following scripts:
 
 1. **create-user.ps1**: Creates a new user in Office 365.
