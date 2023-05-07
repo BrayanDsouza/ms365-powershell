@@ -2,10 +2,10 @@
 This repository contains PowerShell scripts for managing Microsoft 365 resources such as users, groups, and licenses. These scripts leverage the Microsoft Online Services Sign-in Assistant Module for PowerShell to connect to Microsoft 365 and perform management tasks.
 
 ## Prerequisites
-Before running the scripts in this repository, you must have the following prerequisites installed on your computer:
+Before running the scripts in this repository, you must have the following prerequisites installed on your computer:<br>
 **Microsoft Online Services Sign-in Assistant**
 
-You can download and install these modules from the following links:
+You can download and install these modules from the following links:<br>
 [Microsoft Online Services Sign-in Assistant](https://learn.microsoft.com/en-us/microsoft-365/enterprise/connect-to-microsoft-365-powershell?view=o365-worldwide)
 
 ### Getting Started
