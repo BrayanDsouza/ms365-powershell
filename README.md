@@ -3,7 +3,7 @@ This repository contains PowerShell scripts for managing Office 365 resources su
 
 ## Prerequisites
 Before running the scripts in this repository, you must have the following prerequisites installed on your computer:
-> **Microsoft Online Services Sign-in Assistant**<br>
+> **Microsoft Online Services Sign-in Assistant**
 You can download and install these modules from the following links:
 > **Microsoft Online Services Sign-in Assistant**
 
