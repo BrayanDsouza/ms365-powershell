@@ -2,26 +2,14 @@
 Connect-MsolService
 Connect-ExchangeOnline
 
+$UserPrincipalName = Read-Host "Enter User email"
+
 # Set the value that will signal the end of the loop
 $endValue = "stop"
 
-$UserPrincipalName = Read-Host "Enter User email"
-
-# Get information about all distribution groups
-$groups = Get-UnifiedGroup
-
-$n = 1
-
-# Loop through each group and display its name and email address
-foreach ($group in $groups) {
-    Write-Host "Group name: $($group.DisplayName)"
-    Write-Host "Group email address: $($group.PrimarySmtpAddress)"
-    $n++
-}
 
 
 
-Get-MsolGroup
 # Loop until the user enters the end value
 while ($true) {
     # Prompt the user for input
@@ -36,7 +24,5 @@ while ($true) {
     # Do something with the input value
     Add-UnifiedGroupLinks -Identity $Groups -LinkType "Members" -Links $UserPrincipalName
 
-    Write-Output "'$UserPrincipalName' added to '$Groups'"
+    echo "'$UserPrincipalName' added to '$Groups'"
 }
-
-

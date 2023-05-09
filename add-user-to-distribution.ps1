@@ -4,6 +4,17 @@ Connect-ExchangeOnline
 
 $UserPrincipalName = Read-Host "Enter User email"
 
+# Get information about all distribution groups
+$groups = Get-DistributionGroup
+
+$n = 1
+
+# Loop through each group and display its name and email address
+foreach ($group in $groups) {
+    Write-Host "Group name $n : $($group.Name)"
+    Write-Host "Group email address $n : $($group.PrimarySmtpAddress)"
+    $n++
+}
 
 # Set the value that will signal the end of the loop
 $endValue = "stop"
@@ -22,5 +33,5 @@ while ($true) {
     # Do something with the input value
     Add-DistributionGroupMember -Identity $DistributionList -Member $UserPrincipalName
 
-    echo "'$UserPrincipalName' added to '$DistributionList'"
+    Write-Output "'$UserPrincipalName' added to '$DistributionList'"
 }
