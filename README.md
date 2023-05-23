@@ -30,18 +30,18 @@ This will run the **create-user.ps1** script, which creates a new user in Micros
 <br>
 This repository contains the following scripts:
 
-**README.md**: About page.
-**remove-alias**: Removes the alias for the Emails. 
-**add-user-to-distribution.ps1**: Adds a user to an Microsoft 365 group.
-**add-user-to-group.ps1**: Adds a user to an Microsoft 365 group.
-**create-distribution-list.ps1**: Creates a new distribution list on the tenant.
-**create-user.ps1**: Creates a new user in Microsoft 365.
-**list-distribution-list.ps1**: Lists all the Distribution groups on the tenant.
-**list-groups.ps1**: List groups on the tenant.
-**list-users.ps1**: Lists the Users on the tenant.
-**remove-user-from-group.ps1**: Removes a user from an Microsoft 365 group.
-**remove-license.ps1**: Removes an Microsoft 365 license from a user. I'll try to add comments to the scripts explaining what the script does and how to use it.<br>
-**update-first-last.ps1**: Updates the first and last name for the users.
-**assign-license.ps1**: Assigns an Microsoft 365 license to a user.
+1. **README.md**: About page.
+2. **remove-alias**: Removes the alias for the Emails. 
+3. **add-user-to-distribution.ps1**: Adds a user to an Microsoft 365 group.
+4. **add-user-to-group.ps1**: Adds a user to an Microsoft 365 group.
+5. **create-distribution-list.ps1**: Creates a new distribution list on the tenant.
+6. **create-user.ps1**: Creates a new user in Microsoft 365.
+7. **list-distribution-list.ps1**: Lists all the Distribution groups on the tenant.
+8. **list-groups.ps1**: List groups on the tenant.
+9. **list-users.ps1**: Lists the Users on the tenant.
+10. **remove-user-from-group.ps1**: Removes a user from an Microsoft 365 group.
+11. **remove-license.ps1**: Removes an Microsoft 365 license from a user. I'll try to add comments to the scripts explaining what the script does and how to use it.<br>
+12. **update-first-last.ps1**: Updates the first and last name for the users.
+13. **assign-license.ps1**: Assigns an Microsoft 365 license to a user.
 
 Contributing If you have any suggestions or improvements for these scripts, feel free to submit a pull request or open an issue. All contributions are welcome!
