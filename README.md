@@ -31,9 +31,11 @@ This will run the **create-user.ps1** script, which creates a new user in Micros
 This repository contains the following scripts:
 
 1. **create-user.ps1**: Creates a new user in Microsoft 365.
-2. **add-user-to-group.ps1**: Adds a user to an Microsoft 365 group.
-3. **remove-user-from-group.ps1**: Removes a user from an Microsoft 365 group.
-4. **assign-license.ps1**: Assigns an Microsoft 365 license to a user.
-5. **remove-license.ps1**: Removes an Microsoft 365 license from a user. I'll try to add comments to the scripts explaining what the script does and how to use it.<br>
+2. **list-users.ps1**: Lists the Users on the tenant.
+3. **add-user-to-group.ps1**: Adds a user to an Microsoft 365 group.
+4. **add-user-to-distribution.ps1**: Adds a user to an Microsoft 365 group.
+5. **remove-user-from-group.ps1**: Removes a user from an Microsoft 365 group.
+6. **assign-license.ps1**: Assigns an Microsoft 365 license to a user.
+7. **remove-license.ps1**: Removes an Microsoft 365 license from a user. I'll try to add comments to the scripts explaining what the script does and how to use it.<br>
 
 Contributing If you have any suggestions or improvements for these scripts, feel free to submit a pull request or open an issue. All contributions are welcome!

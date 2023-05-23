@@ -2,8 +2,8 @@
 # Connect-ExchangeOnline
 
 # Define the user information
-$UserPrincipalName = "me@2jpf5z.onmicrosoft.com"
-$AliasToRemove = "me@brayandsouza.com"
+$UserPrincipalName = Read-Host "Enter User Principle Name"
+$AliasToRemove = Read-Host "Enter alias to be removed"
 
 # Get the user's mailbox
 $Mailbox = Get-Mailbox -Identity $UserPrincipalName

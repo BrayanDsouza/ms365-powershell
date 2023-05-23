@@ -40,18 +40,5 @@ $License = Read-Host "Enter the license needed for the user"
 # Create a new user
 New-MsolUser -UserPrincipalName $UserPrincipalName -DisplayName $DisplayName -FirstName $FirstName -LastName $LastName -LicenseAssignment $License -UsageLocation "AE" -Department $Department 
 
-# Get Distribution List Details
-Get-DistributionGroup
-
-$DistributionList = Read-Host "Enter distribution list the user should be added to"
-
-Add-DistributionGroupMember -Identity $DistributionList -Member $UserPrincipalName
-
-# Get M365 Groups
-Get-MsolGroup
-
-$Groups = Read-Host "Enter Group name"
-
-Add-UnifiedGroupLinks -Identity $Groups -LinkType "Members" -Links $UserPrincipalName
 
 
