@@ -23,16 +23,7 @@ Write-Host "--"
 # Get information about available account SKUs
 $AccountSku = Get-MsolAccountSku
 
-# Loop through the available account SKUs and display license information
-foreach ($Sku in $AccountSku) {
-    Write-Host "SKU: $($Sku.AccountSkuId)"
-    Write-Host "Total licenses: $($Sku.ActiveUnits)"
-    Write-Host "Available licenses: $($Sku.ActiveUnits - $Sku.ConsumedUnits)"
-    Write-Host ""
-}
-
-# Dummy
-# $Empty = Read-Host "Do you want to proceed - Enter Dummy Text"
+$AccountSku | Format-Table -Property AccountSkuId, ActiveUnits, ConsumedUnits
 
 # Enter the License needed for the user
 $License = Read-Host "Enter the license needed for the user"
