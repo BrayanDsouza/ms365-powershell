@@ -1,6 +1,6 @@
 # Connect to MSOL and Exchange Online
-# Connect-MsolServices
-# Connect-ExchangeOnline
+Connect-MsolServices
+Connect-ExchangeOnline
 
 Write-Host = "Listing all the available license."
 # Get information about available account SKUs

@@ -1,6 +1,6 @@
 # Connect MSOL and Exchange Online
-#Connect-ExchangeOnline
-#Connect-MsolService
+Connect-ExchangeOnline
+Connect-MsolService
 
 # UserPrincipal Name
 $UserPrincipalName = Read-Host "Enter the User Principal Name email@domain.com"
