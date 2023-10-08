@@ -43,5 +43,5 @@ This repository contains the following scripts:
 11. **remove-license.ps1**: Removes an Microsoft 365 license from a user. I'll try to add comments to the scripts explaining what the script does and how to use it.<br>
 12. **update-first-last.ps1**: Updates the first and last name for the users.
 13. **assign-license.ps1**: Assigns an Microsoft 365 license to a user.
-
-Contributing If you have any suggestions or improvements for these scripts, feel free to submit a pull request or open an issue. All contributions are welcome!
+14. **set-email-forward.ps1**: Set email forwarder.
+15. **update-first-and-last.ps1**: Update first and last name of the email user.
